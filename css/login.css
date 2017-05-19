@@ -1,0 +1,7 @@
+*{padding: 0;margin:0}
+body{width: 100%;background:url(../img/logo1.jpg);line-height:70px;font-family: "微软雅黑";}
+.con{width:600px;height:300px;/*border: 1px solid black;*/background-color: /*rgba(255,255,255,0.5)*/rgba(288,166,79,0.6);
+margin-left:50px;margin-top:195px;}
+.con h2{text-align: center;color: whitesmoke;font-family: "方正舒体";font-size:30px;}
+.con form input{width:300px;height:40px;margin-left: 130px;padding-left: 15px;font-size: 18px;background:rgba(255,255,255,0.6);}
+.con .ti {width:100px;height:40px;border-radius:10px;background-color:/* #BDB76A*/#E4A64F;margin-left: 230px;font-size: 20px;color: white;}

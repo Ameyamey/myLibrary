@@ -1,0 +1,100 @@
+*{margin:0px;padding:0px;}
+body{background: /*#EEE8AB;*/#F2EBC7;font-family: "方正舒体";}
+a{text-decoration: none;}
+/*----------------------------------------书馆网页头部样式开始-----------------------------------------------*/
+.header{width:100%;height:120px;/*border:1px solid black;*/}
+.header .log{width:50%;height:100%;/*border:1px solid blue;*/float: left;background: url(../img/logo.jpg) no-repeat;}
+/*--------------------------搜索框样式---------------------*/
+.header .search{float:left;position: relative; top:50px;}
+.header .search .text{width:300px;height:30px;float:left;padding-left: 10px;}
+.header .search .sub{background: #BDB76A;width: 100px; height:32px; font-size: 16px; font-family: "微软雅黑";}
+/*--------------------------注册登录样式--------------------------------*/
+.header .login ul{list-style-type: none;position: relative; left: 180px;top:10px;}
+.header .login ul li{float: left;margin-left: 10px;}
+.header .login ul li a{color:black; font-size:16px;}
+.header .login ul li a:hover{color: red;}
+/*----------------------------------------书馆网页头部样式结束-----------------------------------------------*/
+/*----------------------------------------导航样式-----------------------------------------------*/
+.nav {width:80%;height:60px; /*border:1px solid red;*//*margin-left:132px;*/}
+.nav ul{list-style-type: none;/*border:1px solid black;*//*width:1060px;*/width:80%;height:40px;margin-top:15px;margin-left: 150px;}
+.nav ul li{float: left;margin-left: 30px;}
+.nav ul li a{text-decoration: none; font-size: 24px;color: black;font-weight: bolder; font-family:/* "宋体"*/"方正舒体"; line-height:50px;}
+.nav ul li a:hover{color: #A35015 ;}
+.first{width:80%;height:3px;background: saddlebrown;margin-left: 10%;}
+/*----------------------------------------------导航条分类样式开始---------------------------------------------*/
+.classify{ position:relative;left:10%;top:30px;/*border: 1px solid black;*/width:300px;z-index: 2;
+float: left;}
+.classify a{text-decoration: none;/*color: #737373; */font-family:"微软雅黑"; font-size: 16px;}
+.classify ul{list-style-type: none;}
+/*全部商品分类*/
+.all{width:280px;height:44px;line-height:44px;background:#BDB76A;padding:0 10px;}
+.all a{color:white;font-size:16px;margin-left:80px;/*border:1px solid black;*/}
+/*导航菜单*/
+.nav_item{ width:280px;height:40px;line-height:35px;color:white;background:#F5F5F2;padding:0 10px;}
+.nav_item a{color: black;}
+/*.classify ul li a{color:white;}*/
+.jt{ color:black;float:right;width:12px;padding-top:10px;font: 13px consolas;}
+.classify ul li:hover {background:#BDB76A;}
+/*.classify ul li:hover a{color:black;}*/
+ /*submenu*/
+.sub_menu{display:none;width: 550px;position:relative; z-index:3;left:290px;top:-36px;background:#f7f7f7;
+border: 1px solid #BDB76A;}
+.classify ul li:hover .sub_menu{display:block;}
+.sub_menu dl{
+    overflow:hidden;
+    display:block;
+    margin-left: 20px;
+ }
+.sub_menu dl dt{
+    float:left;
+    font-weight:bold;
+    color:#737373;
+    padding:0 8px;
+}
+.sub_menu dl  dd  a{
+     color: #737373;
+    float:left;
+    height:30px;
+    line-height:20px;
+    padding:0 20px;
+    border-left: 1px solid #e0e0e0;
+     font-size:12px;
+     margin-top:5px;
+}
+.sub_menu dl  dd  a:hover{color: goldenrod;}
+.nav_item a:hover{color: beige;}
+.imgs{ position:relative;/*border:1px solid saddlebrown;*/width:300px;}
+.imgs img{margin-top:20px;}
+/*---------------------------------------------左边内容（排行榜）--------------------------------------------------*/
+.contain-left{/*border:1px solid royalblue;*/position:absolute;left:480px;top:230px;width:730px;z-index: 1;}
+.contain-left h4{/*border:1px solid blueviolet;*/width:200px;height:20px;}
+.contain-left h4 a{text-decoration: none;color: black;font-size: 14px;font-family: "宋体";}
+.contain-left h4 a:hover{color: #8B4513;}
+.contain-left span{padding-left: 10px;padding-right: 10px;}
+.charts{list-style-type: none;width:100%;/*margin-top:20px;*/border:1px solid #e0e0e0;height:30px;
+background: whitesmoke;}
+.charts li{float: left;line-height: 30px;width:102px;border-left: 1px solid #E0E0E0;}
+.charts li a{color: slategray;font-size: 16px;padding-left: 20px;}
+.charts li a:hover{color: #000000;}
+.contents{width:100%;/*border:1px solid black;*/list-style-type: none;height:1200px;}
+.contents li{width:160px;height:220px;/*border:1px solid red;*/float: left;margin-left:20px;margin-top:20px;}
+.contents li:hover{background:#F5F5F2;}
+.contents li:hover img{border-color: silver;}
+.contents li:hover p{color:#8B4513;text-decoration: underline;}
+.contents li img{border:1px solid #E0E0E0;margin:4px;}
+.contents li p{text-align: center;margin-top: 6px;color:black;font-family: "微软雅黑";}
+.turn-page{width:100%;list-style-type: none;/*border:1px solid darkblue;*/height:40px;margin-top:20px;}
+.turn-page li{float: left;border:1px solid #E0E0E0;height:30px;margin-left:30px;background:#F2EBC7;}
+.turn-page li a{padding: 10px;line-height: 25px;color: black;font-weight: bolder;}
+/*.turn-page li a:hover{color: #8B4513;}*/
+.turn-page li:hover{background: whitesmoke;}
+.turn-page li:hover a{color:red;}
+/*-----------------------------------------页脚-----------------------------------------------*/
+.footer{width: 100%;/*height: 200px;*//*border:1px solid black;*/margin-top:1400px;}
+.footer ul{width:980px;height:200px;/*border:1px solid darkblue;*/margin-left:13%;}
+.footer li{float:left;list-style-type:none;/*border:1px solid red;*/margin-left: 100px;margin-top: 30px;}
+.footer li img{width:100px;height:100px;border-radius: 50%;border:1px solid #BDB76A;}
+.footer li p{text-align: center;margin-top:10px;font-family: "微软雅黑";font-size: 16px;color: black;}
+.footer li:hover img{border-color:#8B4513;}
+.footer li:hover p{color: #6B8E23;}
+.producer{/*border:1px solid black;*/width:400px;margin:0 auto;color: gray;font-size: 16px;font-family:"宋体";}
